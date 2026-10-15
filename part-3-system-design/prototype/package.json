@@ -1,0 +1,16 @@
+{
+  "name": "payday-prototype",
+  "version": "1.0.0",
+  "description": "Payday Distributed Saga Orchestrator & Double-Entry Ledger Prototype",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "tsc && node dist/payday.test.js",
+    "demo": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
